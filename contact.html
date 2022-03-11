@@ -10,6 +10,18 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <script>
+    (function () {
+      var zi = document.createElement('script');
+      zi.type = 'text/javascript';
+      zi.async = true;
+      zi.referrerPolicy = 'unsafe-url';
+      zi.src = 'https://ws.zoominfo.com/pixel/6228e361a1d53c001b541c0a';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(zi, s);
+    })();
+  </script>
 </head>
 
 <body>
@@ -131,12 +143,12 @@
                 <p>
                     3481 Melrose Place<br>Beverly Hills, CA 90210<br>
                 </p>
-                <p><i class="fa fa-phone"></i> 
+                <p><i class="fa fa-phone"></i>
                     <abbr title="Phone">P</abbr>: (123) 456-7890</p>
-                <p><i class="fa fa-envelope-o"></i> 
+                <p><i class="fa fa-envelope-o"></i>
                     <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> 
+                <p><i class="fa fa-clock-o"></i>
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
@@ -220,7 +232,9 @@
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
+    <noscript>
+      <img src="https://ws.zoominfo.com/pixel/6228e361a1d53c001b541c0a" width="1" height="1" style="display: none;" />
+    </noscript>
 </body>
 
 </html>
